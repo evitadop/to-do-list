@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">to-do-list</string>
+    <string name="page_title" translatable="false">To Do List</string>
+    <string name="task_1" translatable="false">Desain web</string>
+    <string name="task_2" translatable="false">Desain page login</string>
+    <string name="task_3" translatable="false">Tugas WPPL</string>
+    <string name="task_4" translatable="false">Tugas SPK</string>
+    <string name="task_5" translatable="false">Belajar Frontend</string>
+    <string name="new_page" translatable="false">New List</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="add" translatable="false">Add</string>
+    <string name="title_task">Title</string>
+    <string name="notes">Notes</string>
+    <string name="date">Date</string>
+    <string name="sub">Subtasks</string>
+    <string name="sub_task1">Download PPT</string>
+    <string name="sub_task2">Review Materi</string>
+    <string name="edit">Details</string>
+    <string name="del">Delete</string>
+
+</resources>

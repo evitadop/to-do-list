@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:background="@color/button">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/blue">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="@string/page_title"
+            android:textColor="@color/title"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="@string/new_page"
+        android:textColor="@color/title"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-11dp"
+        android:background="@color/button"
+        android:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginStart="290dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-11dp"
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="291dp"
+        android:background="@color/button"
+        android:text="@string/add" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/title_task"
+        android:background="@color/blue"
+        android:textColor="@color/title"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="@string/notes"
+        android:background="@color/blue"
+        android:textColor="@color/title"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/date"
+        android:background="@color/blue"
+        android:textColor="@color/title"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="20dp"
+        android:text="@string/sub"
+        android:textSize="18dp"
+        android:textColor="@color/title"
+        android:background="@color/blue"
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginTop="71dp"
+        android:button="@drawable/custom_checkbox"
+        android:checked="false"
+        android:text="@string/sub_task1" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="503dp"
+        android:button="@drawable/custom_checkbox"
+        android:text="@string/sub_task2"
+        />
+
+</RelativeLayout>

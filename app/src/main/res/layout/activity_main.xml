@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/blue">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="@string/page_title"
+            android:textColor="@color/title"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="90dp"
+        android:checked="true"
+        android:text="@string/task_1"
+        android:button="@drawable/custom_checkbox"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="503dp"
+        android:text="@string/task_2"
+        android:button="@drawable/custom_checkbox"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginTop="167dp"
+        android:layout_marginBottom="-13dp"
+        android:text="@string/task_3"
+        android:button="@drawable/custom_checkbox"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginTop="206dp"
+        android:layout_marginBottom="-13dp"
+        android:text="@string/task_4"
+        android:button="@drawable/custom_checkbox"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginTop="245dp"
+        android:layout_marginBottom="-13dp"
+        android:enabled="true"
+        android:text="@string/task_5"
+        android:button="@drawable/custom_checkbox"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/button_round"
+        android:gravity="center"
+        android:text="+"
+        android:textSize="40sp"/>
+
+
+
+</RelativeLayout>
